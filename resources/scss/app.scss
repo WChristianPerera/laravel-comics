@@ -1,0 +1,189 @@
+@import  "~bootstrap/scss/bootstrap";
+
+// Header 
+header{
+    .header-container{
+        max-width: 1200px;
+        margin-inline: auto;
+    }
+    
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-bar{
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+}
+
+.header-btn{
+    position: absolute;
+    left: 170px;
+    bottom: -10px;
+    padding: 0.5rem;
+    background-color: #0282F9;
+    border: none;
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.jumbotron {
+    background-image: url(../images/jumbotron.jpg);
+    height: 400px;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+// Main
+main{
+    background-color: #1C1C1C;
+
+    .main-container{
+        max-width: 1200px;
+        margin-inline: auto; 
+        display: flex;
+    }
+
+    .comic{
+        gap: 1rem;
+        color: white;
+        margin-top: 20px;
+
+        img{
+            width: 100px;
+        }
+    }
+
+    .load{
+        display: flex;
+        justify-content: center;
+
+        .main-btn{
+            padding: 0.5rem;
+            padding-inline: 2rem;
+            color: white;
+            background-color: #0282F9;
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
+            border: none;
+        }
+    }
+}
+
+.shop-container{
+    background-color: #0282F9;
+    height: 7rem;
+
+    .shop{
+        max-width: 1200px;
+        margin-inline: auto;
+        display: flex;
+
+        .shop-link{
+            display: flex;
+            align-items: center;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+
+            img{
+                width: 70px;
+                height: 80px;
+            }
+        }
+    }
+}
+
+
+
+// Footer Top
+.footer-top {
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.f-top-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+
+    .contents {
+        display: flex;
+
+        .column {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    h3{
+        color: white;
+    }
+
+    li {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            color: #848678;
+            font-size: 0.8rem;
+        }
+    }
+}
+
+
+    
+// Footer Bot
+.footer-bot {
+    background-color: #303030;
+}
+
+.socials-network {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+
+
+    .sign-up-btn {
+        background-color: transparent;
+        color: white;
+        border: 2px solid #0282F9;
+        padding: .7rem;
+        font-size: 1rem;
+    }
+
+
+    .social {
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+
+        h3 {
+            color: #0282F9;
+            font-size: 20px;
+        }
+    }
+}
+
+
